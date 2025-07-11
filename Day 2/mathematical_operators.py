@@ -16,8 +16,7 @@ print("Exponentiation: 7 ** 3 =", 7 ** 3)
 # Modulus
 print("Modulus: 7 % 3 =", 7 % 3)
 # Parentheses for precedence
-print("Using Parentheses: 3 * (3 + 3) =", 3 *
-# (3 + 3))
+print("Using Parentheses: 3 * (3 + 3) =", 3 * (3 + 3))
 # Order of operations
 print("Order of Operations: 3 * 3 + 3 =", 3 * 3 + 3)
 # Using parentheses to change order of operations
