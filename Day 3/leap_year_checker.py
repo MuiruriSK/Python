@@ -7,7 +7,7 @@ if year % 4 == 0:
             print(f"{year} is not a leap year.")
     else:
         print(f"{year} is a leap year.")
-else;
+else:
     print(f"{year} is not a leap year.")
 # This code checks if a given year is a leap year.
 # A year is a leap year if it is divisible by 4, but not divisible by

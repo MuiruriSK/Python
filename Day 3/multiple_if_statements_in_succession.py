@@ -22,3 +22,8 @@ if height >= 120:
     
 else:
     print("Sorry bud, you have to grow taller before you can ride.")
+# This code checks if a person is tall enough to ride a rollercoaster.
+# It prompts for the height in centimeters and compares it to the minimum height requirement.
+# If the height is 120 cm or more, the person can ride; otherwise, they cannot.
+# The code also checks the age of the person to determine the ride fee.
+# Additionally, it asks if the user wants a photo taken, which adds to the total bill.
