@@ -11,8 +11,10 @@ elif 18.5 <= bmi < 24.9:
     category = "Normal weight"
 elif 25 <= bmi < 29.9:
     category = "Overweight"
+elif bmi <= 34.9:
+    category = "Obese"   
 else:
-    category = "Obesity"
+    category = "Clinically obese"
 print("You are classified as: " + category)
 # This code calculates the Body Mass Index
 #  (BMI) based on user input for weight and height
