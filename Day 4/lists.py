@@ -36,3 +36,4 @@ States_of_America.remove("Georgia")
 # Inserting a state at a specific position
 States_of_America.insert(3, "Florida")
 print(States_of_America)  # Printing the modified list
+print (f"Total number of states: {len(States_of_America)}")  # Printing the total number of states
