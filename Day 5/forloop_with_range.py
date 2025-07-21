@@ -24,3 +24,12 @@ even_total = 0
 for number in range(2, 101, 2):
     even_total += number  # Summing even numbers from 1 to 100
 print(f"Total sum of even numbers from 1 to 100 is: {even_total}")
+
+# Adding even numbers using modulus operator
+even_total = 0
+for number in range(1, 101):
+    if number % 2 == 0:
+        even_total += number  # Summing even numbers from 1 to 100
+print(f"Total sum of even numbers from 1 to 100 using modulus is: {even_total}")
+(f"Total sum of even numbers from 1 to 100 is: {even_total}")  # Printing the total sum of even numbers
+# The total is calculated by iterating through the range and summing each number
