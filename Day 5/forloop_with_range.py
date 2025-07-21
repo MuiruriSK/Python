@@ -18,3 +18,9 @@ total = 0
 for number in range(1, 101):
     total += number  # Summing numbers from 1 to 100
 print(f"Total sum from 1 to 100 is: {total}")  # Printing
+
+# Adding even numbers from 1 to 100
+even_total = 0
+for number in range(2, 101, 2):
+    even_total += number  # Summing even numbers from 1 to 100
+print(f"Total sum of even numbers from 1 to 100 is: {even_total}")
