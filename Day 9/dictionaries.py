@@ -29,3 +29,16 @@ print(programming_dictionary)
 for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
+
+# Nesting 
+capitals = {
+    "France": "Paris",
+    "Germany": "Berlin",
+    "Italy": "Rome",
+}
+# Nesting a list in a dictionary
+travel_log = {
+    "France": ["Paris", "Lille", "Nice"],
+    "Germany": ["Berlin", "Munich", "Frankfurt"],
+    "Italy": ["Rome", "Milan", "Venice"],
+}
