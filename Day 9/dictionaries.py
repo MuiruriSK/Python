@@ -41,4 +41,20 @@ travel_log = {
     "France": ["Paris", "Lille", "Nice"],
     "Germany": ["Berlin", "Munich", "Frankfurt"],
     "Italy": ["Rome", "Milan", "Venice"],
-}
+} 
+
+# Nesting a dictionary in a dictionary
+travel_log = {
+    "France": {
+        "cities_visited": ["Paris", "Lille", "Nice"],
+        "total_visits": 12,
+    },
+    "Germany": {
+        "cities_visited": ["Berlin", "Munich", "Frankfurt"],
+        "total_visits": 5,
+    },
+    "Italy": {
+        "cities_visited": ["Rome", "Milan", "Venice"],
+        "total_visits": 7,
+    },
+} 
